@@ -6,6 +6,42 @@
   --border-color: rgba(255, 255, 255, 0.1);
 }
 
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
+
 body {
   margin: 0;
   font-family: 'Inter', 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -15,11 +51,83 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
+
 .app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
+
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
 
 .navbar {
   background-color: var(--base-dark);
@@ -35,6 +143,42 @@ body {
   z-index: 100;
 }
 
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
+
 .logo {
   font-size: 1.25rem;
   font-weight: 600;
@@ -43,9 +187,81 @@ body {
   gap: 8px;
 }
 
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
+
 .logo-symbol {
   color: var(--base-light);
 }
+
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
 
 .container {
   max-width: 900px;
@@ -54,6 +270,42 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
 
 .hero {
   padding-top: 120px;
@@ -65,11 +317,83 @@ body {
   gap: 24px;
 }
 
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
+
 .subtitle {
   color: var(--base-light);
   font-weight: 500;
   font-size: 1.1rem;
 }
+
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
 
 .title {
   font-size: 3.5rem;
@@ -78,6 +402,42 @@ body {
   margin: 0;
 }
 
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
+
 .description {
   font-size: 1.1rem;
   line-height: 1.5;
@@ -85,6 +445,42 @@ body {
   max-width: 600px;
   margin-bottom: 16px;
 }
+
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
 
 .btn {
   background-color: var(--base-light);
@@ -98,11 +494,119 @@ body {
   transition: background-color 0.2s ease;
 }
 
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
+
 .btn:hover {
   background-color: #7691ff;
 }
+
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
 
 .btn-large {
   padding: 12px 24px;
   font-size: 1.1rem;
 }
+
+/* === TicTacToe Classic styles === */
+.ttt-main-container {
+  /* Uses inline styles for background/layout, but define here if needed */
+}
+.ttt-board {
+  /* grid container for 3x3 board; spacing handled inline */
+}
+.ttt-cell {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #222;
+  font-size: 2.5rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: background 0.17s, border-color 0.17s, box-shadow 0.19s;
+  cursor: pointer;
+  /* border handled inline */
+}
+.ttt-cell:disabled {
+  cursor: not-allowed;
+  background: #eeeeee;
+  color: #bdbdbd;
+}
+
+.ttt-reset-btn:hover,
+.ttt-reset-btn:active,
+.ttt-reset-btn:focus {
+  background: #369039;
+}
+
